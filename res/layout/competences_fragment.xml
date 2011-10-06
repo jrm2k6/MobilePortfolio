@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout 
+  	android:orientation="horizontal"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:background="#D3D3D3">
+      <ImageView 
+      	android:id="@+id/iv_competences_section_technical_skills" 
+      	android:layout_height="24dp" 
+      	android:layout_width="25dp" 
+      	android:src="@drawable/technical_skills">
+      	</ImageView>
+      <TextView 
+      	android:paddingLeft="8dp"
+      	android:layout_height="wrap_content" 
+      	android:text="Technical skills" 
+      	android:textAppearance="?android:attr/textAppearanceMedium" 
+      	android:layout_width="wrap_content" 
+      	android:id="@+id/tv_competences_title_technical"
+      	>
+      </TextView>
+
+  </LinearLayout>
+  <LinearLayout
+  	android:paddingTop="5dp"
+  	android:id="@+id/ll_competences_technical_content" 
+  	android:layout_height="wrap_content" 
+  	android:layout_width="match_parent" 
+  	android:orientation="vertical">
+      <TextView 
+      	android:paddingLeft="5dp"
+      	
+      	android:text="Programming languages" 
+      	android:id="@+id/tv_comptences_title_programming_languages" 
+      	android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content">
+      </TextView>
+      <TextView 
+      	android:paddingLeft="10dp"
+      	android:textColor="#333333"
+      	android:text="C/C++, Java/Android, Delphi, HTML/PHP/CSS/JS, Python/Django, SQL/ PL-SQL, Bash, Latex formatting, OCaml, Prolog" 
+      	android:id="@+id/tv_competences_content_programming" 
+      	android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content">
+      </TextView>
+      <TextView 
+      	android:paddingTop="5dp"
+      	android:paddingLeft="5dp"
+      	
+      	android:text="Operating systems" 
+      	android:id="@+id/tv_competences_title_operating_systems" 
+      	android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content">
+      </TextView>
+      <TextView 
+      	android:paddingLeft="10dp"
+      	android:textColor="#333333"
+      	android:text="Unix (Ubuntu, KUbuntu, Debian), Windows, MacOS" 
+      	android:id="@+id/tv_competences_content_operating_system" 
+      	android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content">
+      </TextView>
+      <TextView 
+      	android:paddingTop="5dp"
+      	android:paddingLeft="5dp"
+      	
+      	android:text="Software" 
+      	android:id="@+id/tv_competences_title_software" 
+      	android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content">
+      </TextView>
+      <TextView 
+      	android:paddingLeft="10dp"
+      	android:textColor="#333333"
+      	android:text="Eclipse, Netbeans, Visual Studio, Subversion, SQLDeveloper, Gimp, InkScape, VMWare.." 
+      	android:id="@+id/tv_competences_content_software" 
+      	android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content"
+      	android:paddingBottom="5dp">
+      </TextView>
+  </LinearLayout>
+  <LinearLayout 
+  	android:id="@+id/ll_competences_languages" 
+  	android:layout_height="wrap_content" 
+  	android:layout_width="fill_parent"
+  	android:background="#D3D3D3">
+      <ImageView 
+      	
+      	android:id="@+id/iv_competences_languages_section" 
+      	android:layout_height="24dp" 
+      	android:layout_width="25dp" 
+      	android:src="@drawable/languages">
+      </ImageView>
+      <TextView 
+      	android:paddingLeft="8dp"
+      	android:layout_height="wrap_content" 
+      	android:text="Languages" 
+      	android:textAppearance="?android:attr/textAppearanceMedium" 
+      	android:layout_width="wrap_content" 
+      	android:id="@+id/tv_competences_title_languages">
+      </TextView>
+  </LinearLayout>
+  <LinearLayout 
+  	android:id="@+id/ll_competences_languages_content" 
+  	android:layout_height="wrap_content" 
+  	android:layout_width="match_parent" 
+  	android:orientation="vertical">
+      <TextView 
+      	android:paddingTop="5dp"
+      	android:paddingLeft="5dp"
+      	android:textColor="#333333"
+      	android:layout_height="wrap_content" 
+      	android:text="French : native language" 
+      	android:layout_width="wrap_content" 
+      	android:id="@+id/tv_competences_languages_french">
+      </TextView>
+      <TextView 
+      	android:paddingTop="5dp"
+      	android:paddingLeft="5dp"
+      	android:paddingBottom="5dp"
+      	android:textColor="#333333"
+      	android:layout_height="wrap_content" 
+      	android:text="English : upper-intermediate (TOEIC score : 830)" 
+      	android:layout_width="wrap_content" 
+      	android:id="@+id/tv_competences_languages_english">
+      </TextView>
+  </LinearLayout>
+  <LinearLayout 
+  	android:id="@+id/ll_competences_currently_content" 
+  	android:layout_height="wrap_content" 
+  	android:layout_width="fill_parent"
+  	android:background="#D3D3D3">
+      <ImageView 
+      	android:id="@+id/iv_competences_currently_section" 
+      	android:layout_height="24dp" 
+      	android:layout_width="25dp" 
+      	android:src="@drawable/learning">
+      </ImageView>
+
+  	<TextView 
+  		android:layout_height="wrap_content" 
+  		android:text="I am currently learning.."
+  		android:paddingLeft="5dp" 
+  		android:textAppearance="?android:attr/textAppearanceMedium" 
+  		android:layout_width="wrap_content" 
+  		android:id="@+id/tv_competences_currently_section">
+  	</TextView>
+  </LinearLayout>
+  <TextView 
+  	android:paddingTop="5dp"
+  	android:paddingLeft="5dp"
+  	android:textColor="#333333"
+  	android:text="Ruby on Rails by developing my own website" 
+  	android:id="@+id/textView1" 
+  	android:layout_width="wrap_content" 
+  	android:layout_height="wrap_content">
+  </TextView>
+</LinearLayout>
+

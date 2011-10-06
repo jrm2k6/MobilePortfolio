@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    android:layout_marginLeft="5dp" 
+    android:background="#FFFFFF"
+    >
+        <TextView 
+        	android:layout_height="5dp" 
+        	android:layout_width="fill_parent" 
+        	android:id="@+id/tv_band_top"
+        	android:layout_alignParentTop="true">
+        </TextView>
+        <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/tv_date_experience_content"
+        android:layout_below="@+id/tv_band_top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp">
+        </TextView>
+        <TextView
+        	android:textColor="#333333" 
+        	android:layout_height="wrap_content" 
+        	android:textAppearance="?android:attr/textAppearanceMedium" 
+        	android:layout_width="wrap_content" 
+        	android:id="@+id/tv_title_experience_content"
+        	android:layout_below="@+id/tv_date_experience_content"
+        	android:layout_marginLeft="5dp">
+        </TextView>
+        <ImageView 
+        	android:id="@+id/iv_logo_company" 
+        	android:layout_width="60dp"  
+        	android:layout_height="50dp"
+        	android:layout_below="@+id/tv_title_experience_content"
+        	>
+        </ImageView>
+        <TextView 
+        	android:text="Place" 
+        	android:id="@+id/tv_place_experience_content" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/tv_title_experience_content"
+        	android:layout_toRightOf="@+id/iv_logo_company"
+        	android:layout_alignTop="@+id/iv_logo_company"
+        	android:layout_marginLeft="5dp">
+        	</TextView>
+        <TextView 
+        	android:layout_width="wrap_content" 
+        	android:text="City - Country" 
+        	android:id="@+id/tv_city_experience_content" 
+        	android:layout_height="wrap_content" 
+        	android:layout_below="@+id/tv_place_experience_content"
+        	android:layout_toRightOf="@+id/iv_logo_company"
+        	android:layout_marginLeft="5dp"
+        	>
+        </TextView>
+        <TextView 
+        	android:paddingTop="50dp"
+        	android:layout_height="wrap_content" 
+        	android:layout_width="wrap_content" 
+        	android:text="What I've done?" 
+        	android:id="@+id/tv_title_body_content_experience"
+        	android:layout_below="@+id/tv_city_experience_content"
+        	android:layout_alignLeft="@+id/iv_logo_company"
+        	android:layout_marginLeft="5dp"
+        	android:textColor="#333333"
+        	
+        	>
+        </TextView>
+        <TextView
+        	android:paddingLeft="5dp" 
+        	android:layout_height="wrap_content" 
+        	android:layout_width="wrap_content" 
+        	android:text="Content" 
+        	android:id="@+id/tv_body_content_experience"
+        	android:layout_below="@+id/tv_title_body_content_experience"
+        	android:layout_marginLeft="10dp"
+        	>
+        </TextView>
+        <TextView
+        	android:paddingTop="50dp"
+        	android:layout_width="wrap_content" 
+        	android:text="Using  " 
+        	android:id="@+id/tv_title_skill_part_content_experience" 
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/tv_body_content_experience"
+        	android:layout_alignLeft="@+id/tv_title_body_content_experience"
+        	android:layout_marginLeft="5dp"
+        	android:textColor="#333333"
+        	>
+        </TextView>
+        <TextView 
+        	android:layout_alignLeft="@+id/tv_body_content_experience"
+        	android:layout_height="wrap_content" 
+        	android:layout_width="wrap_content" 
+        	android:text="Skills list" 
+        	android:id="@+id/tv_skills_list_content_experience"
+        	android:layout_below="@+id/tv_title_skill_part_content_experience"
+        	android:layout_marginLeft="10dp"
+        	>
+        </TextView>
+        <TextView 
+        	android:layout_height="5dp" 
+        	android:layout_width="fill_parent" 
+        	android:layout_alignParentBottom="true"
+        	android:id="@+id/tv_band_bottom">
+        </TextView>
+        
+    </RelativeLayout>
+    
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MobilePortfolioLauncher!</string>
+    <string name="app_name">MobilePortfolio</string>
+    <string name="my_name">Jérémy Dagorn</string>
+    <string name="description_launcher">Student portfolio</string>
+</resources>
